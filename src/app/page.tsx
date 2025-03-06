@@ -86,6 +86,7 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+        <h2>Created by Sugata Roy</h2>
       </footer>
     </div>
   );
