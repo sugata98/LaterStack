@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { Fruktur } from "next/font/google";
@@ -13,10 +12,6 @@ const fruktur = Fruktur({
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>📚 LaterStack – Unified Media Hub</title>
-        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-      </Head>
       <div className="min-h-screen bg-gray-50 text-gray-900 font-sans flex flex-col dark:bg-gray-900 dark:text-gray-100">
         {/* Header */}
         <header className="w-full bg-white shadow dark:bg-gray-800">
@@ -72,7 +67,7 @@ export default function Home() {
                 height={180}
                 priority
               />
-              <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 font-serif">
+              <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-50 font-serif">
                 Welcome to LaterStack
               </h2>
               <p className="mt-2 text-lg text-gray-600 max-w-2xl">
