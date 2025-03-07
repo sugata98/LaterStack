@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "📚 LaterStack – Unified Media Hub",
+  title: "LaterStack - Unified Media Hub",
   description:
     "Your personalized dashboard for all your media—articles, podcasts, videos, and more.",
   icons: {
